@@ -60,6 +60,9 @@ setup(
             "wandb",
             # Added rich for nicer terminal output during training runs
             "rich>=13.0.0",
+            # jupyter for running notebooks locally without colab
+            "jupyter",
+            "notebook>=7.0.0",
         ],
     },
     classifiers=[
@@ -81,13 +84,10 @@ setup(
         "transformers",
         "mistral",
         "llama",
-        "efficient training",
-    ],
-    entry_points={
+        "efficient trainingn    entry_points={
         "console_scripts": [
             "unsloth=unsloth.cli:main",
         ],
     },
-    include_package_data=True,
-    zip_safe=False,
+    include_package_zip_safe=False,
 )
