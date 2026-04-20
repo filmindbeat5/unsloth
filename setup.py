@@ -61,19 +61,21 @@ setup(
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
-    [
-        "llinetuning",
-        ora",
-        "ora",
-        "transform"mistral",
+    ],
+    keywords=[
+        "llm",
+        "finetuning",
+        "lora",
+        "qlora",
+        "transformers",
+        "mistral",
         "llama",
         "efficient training",
     ],
     entry_points={
-        "console_scripts": [
+[
             "unsloth=unsloth.cli:main",
         ],
     },
     include_package_data=True,
-    zip_safe=False,
-)
+    zipn
