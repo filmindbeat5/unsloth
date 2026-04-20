@@ -73,9 +73,10 @@ setup(
         "efficient training",
     ],
     entry_points={
-[
+        "console_scripts": [
             "unsloth=unsloth.cli:main",
         ],
     },
     include_package_data=True,
-    zipn
+    zip_safe=False,
+)
