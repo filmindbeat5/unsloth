@@ -52,6 +52,13 @@ setup(
             "ipython",
             "ipywidgets",
         ],
+        # Personal extra: tools I find useful when experimenting locally
+        "local": [
+            "ipython",
+            "ipywidgets",
+            "matplotlib",
+            "wandb",
+        ],
     },
     classifiers=[
         "Development Status :: 4 - Beta",
