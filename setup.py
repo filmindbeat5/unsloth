@@ -58,6 +58,8 @@ setup(
             "ipywidgets",
             "matplotlib",
             "wandb",
+            # Added rich for nicer terminal output during training runs
+            "rich>=13.0.0",
         ],
     },
     classifiers=[
