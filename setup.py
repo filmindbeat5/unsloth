@@ -31,7 +31,9 @@ setup(
         "accelerate>=0.26.0",
         "peft>=0.7.1",
         "bitsandbytes>=0.41.3",
-        "protobuf<4.0.0",
+        # Relaxed protobuf constraint to allow v4.x which fixes compatibility
+        # with newer grpc-based tools I use locally
+        "protobuf>=3.20.0",
         "huggingface_hub",
         "hf_transfer",
         "trl>=0.7.9",
